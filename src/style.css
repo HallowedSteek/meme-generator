@@ -44,10 +44,14 @@
 } */
 
 .main {
-  margin: 50px 600px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  /* margin: 50px 600px; */
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 50px;
+  grid-row-gap: 5vw;
 }
 
 .memeBox{
@@ -142,4 +146,12 @@
 .top{
   position: absolute;
   top: 20px;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
 }
