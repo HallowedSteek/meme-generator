@@ -48,10 +48,9 @@ body{
 } */
 
 .main {
-  margin-left: 30vw;
-  margin-right: 30vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+
+  margin: 10vh 50vh;
+
   /* margin: 50px 600px; */
   display: grid;
   grid-template-columns: 1fr;
@@ -157,5 +156,13 @@ body{
   .form {
     display: flex;
     flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .main {
+
+    margin: 10vh 10vh;
   }
 }
